@@ -1,4 +1,4 @@
-# vue-cli
+# Littel VueJS Project
 
 > Awesome Quotes 
 
@@ -7,7 +7,7 @@ and also delete them within a single-page-application.
 <br>
 it's me getting my feet wet again with VueJS after a longer time. 
 
-[Screenshot]: ./screenshot.png  "Awesome Quotes in action"
+![Screenshot](screenshot.png)  "Awesome Quotes in action"
 
 
 ## Build Setup
