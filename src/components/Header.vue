@@ -11,14 +11,14 @@
         aria-valuemax="100"
         :style="{width: (quoteCount / maxQoutes) * 100 + '%'}"
       >
-      {{ quoteCount }} / {{ maxQuotes }}
+      {{ quoteCount }} / {{ maxQoutes }}
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-    props: ['quoteCount', 'maxQuotes']
+    props: ['quoteCount', 'maxQoutes']
 };
 </script>
 <style>

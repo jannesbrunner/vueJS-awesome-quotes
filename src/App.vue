@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <app-header></app-header>
+        <app-header :quoteCount="quotes.length" :maxQoutes="maxQuotes"></app-header>
         <app-quote-grid :quotes="quotes" @quoteDelete="deleteQuote"></app-quote-grid>
         <app-new-quote @quoteNew="newQuote"></app-new-quote>
         <div class="row">
