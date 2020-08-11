@@ -2,6 +2,13 @@
     <div class="container">
         <app-quote-grid :quotes="quotes"></app-quote-grid>
         <app-new-quote @quoteNew="newQuote"></app-new-quote>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="alert alert-info">
+                    Info: Just click on a Quote to delete it
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
